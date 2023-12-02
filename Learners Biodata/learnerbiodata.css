@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  background-image: url(/img/pc.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+  width: 100px;
+  position: absolute;
+
+  filter: contrast(100);
+  padding: 4px;
+}
+.swal2-popup{
+  border: 2px solid rgb(216, 210, 210);
+  background-size: cover;
+  -webkit-box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+  6px 6px 6px rgba(255, 255, 255, 0.781);
+        box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+  6px 6px 6px rgba(255, 255, 255, 0.781);
+  outline: none;
+  background-color: #f7f7f7;
+  background-color: transparent;
+  border-radius: 20px;
+}
+h2#swal2-title.swal2-title{
+  color: #d5cccc;
+ 
+
+ 
+}
+div#swal2-html-container.swal2-html-container {
+  color: #d5cccc;
+  
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0, 100%);
+  width: 32em;
+  max-width: 100%;
+  padding: 0 0 1.25em;
+  border: none;
+  border-radius: 5px;
+  background: #c1baba;
+  color: #e4dddd;
+  font-family: inherit;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+  display: block;
+  position: absolute;
+  top: 2.3125em;
+  width: 2.9375em;
+  height: 0.3125em;
+  border-radius: 0.125em;
+  background-color: #e6eeea;
+  
+
+}
+
+
+  .swal2-icon.swal2-error {
+    border-color: gray;
+    backdrop-filter: blur(5px);
+   
+  }
+  button.swal2-confirm.swal2-styled,.swal2-cancel.swal2-styled {
+    border:1px solid gray ;
+    border-radius: 8px;
+    background: initial;
+    backdrop-filter: blur(50px);
+    color: #fff;
+    width: 120px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+   -webkit-box-shadow: -3px -3px 5px white, 3px 3px 5px rgba(209, 209, 209, 0.705);
+            box-shadow: -3px -3px 5px white, 3px 3px 5px rgba(209, 209, 209, 0.705);
+  
+  
+    
+  }
+  button{
+    background-color: rgb(6, 4, 23);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    
+  }
+
+button a{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(215, 212, 212); 
+  
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  backdrop-filter: blur(50px);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.361);
+  
+}
+#learnerBiodata a{
+list-style: none;
+font-size: 13px;
+text-decoration: none;
+color: rgb(135, 132, 132);
+-webkit-box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+6px 6px 6px rgba(255, 255, 255, 0.781);
+      box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+6px 6px 6px rgba(255, 255, 255, 0.781);
+outline: none;
+background-color: #f7f7f7;
+text-align: center;
+border-radius: 10px;
+padding: 10px 0px 10px 10px;
+transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+#learnerBiodata.input img{
+  border: 1px solid #c7c5c5;
+  width: 100px;
+
+}
+#learnerBiodata.input img:hover{
+ transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+ backdrop-filter: blur(400px);
+ border: 1px solid  #c7c5c5;
+ transform: scale(3.03);
+
+}
+a:hover{
+transform: scale(1.03);
+transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+
+}
+a:active{
+transform: scale(0.93);
+transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+
+select {
+  display: block;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #0a0606;
+  -webkit-box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+6px 6px 6px rgba(255, 255, 255, 0.781);
+      box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+6px 6px 6px rgba(255, 255, 255, 0.781);
+outline: none;
+background-color: #f7f7f7;
+
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #e5dddd;
+  color: #7b7676;
+}
+
+h3{
+  
+  margin-top: 20px;
+  text-align: center;
+  color: #ece5e5;
+  padding: 10px;
+  margin-top: 1px;
+  border-radius: 6px;
+  background-image: url(/img/cool.jpg);
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+}
+.titleclass{
+  background-image: url(/img/ip.jpg);
+  color: #f9f9f9;
+  width: 600px;
+  padding: 0px 10px 0px 10px;
+  background-size: cover;
+  border-radius: 4px;
+}
+#biodata{
+  width: 200px;
+}
+
+#learnerBiodata {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border: 2px solid #e0dcdc;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  background-color: transparent;
+  color: #484545;
+  
+}
+
+p {
+  margin: 5px 0;
+}
+.titleclass{
+font-size: 1.5rem;
+
+}

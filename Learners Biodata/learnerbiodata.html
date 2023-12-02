@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learner Information</title>
+  <link rel="stylesheet" href="learnerbiodata.css">
+  <link rel="stylesheet" href="slip.css">
+<!-- Add this in your HTML head section -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+
+
+
+</head>
+<body oncontextmenu="return true;">
+ 
+
+
+  <div class="container">
+    <div class="header">
+    <img src="./img/schoologo.png" alt="" class="logo">
+    <h3>
+      OFFICE OF THE HEADTEACHER <br>
+      Online Services  <br>
+      Portal
+    </h3>
+  </div>
+   
+   
+
+
+    <label for="classSelect" class="titleclass">Select Class:</label>
+    <select id="classSelect" onchange="displayLearners()">
+      <!-- <option value=""></option> -->
+      <option value="ClassEight2023">Class 0f 2023 KCPE Downloads</option>
+      <option value="GradeFive">Grade Five</option>
+      <!-- Add more classes as needed -->
+    </select>
+
+    <label for="learnerSelect">Select Learner:</label>
+    <select id="learnerSelect" onchange="displayBiodata()">
+      <!-- Learner options will be populated based on the class selection -->
+    </select>
+
+    <h2 class="titleclass" id="biodata">Learner's Biodata</h2>
+    <div id="learnerBiodata" class="input">
+      <!-- Biodata will be displayed here -->
+    </div> <br>
+    <button><a href="/Result Slips/Slip.html">#leaving Certificate</a></button>
+    <button><a href="/Result Slips/Slip.html">#Kcpe Certs Collection</a></button>
+    <button><a href="/Result Slips/Slip.html">#Kpsea slips</a></button>
+    <button><a href="/Result Slips/Slip.html">#Kpsea slips</a></button>
+    <button><a href="/Result Slips/Slip.html">#Complains</a></button>
+ 
+
+  <a href="./img/abeka.jpg"></a>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="learnerbiodata.js"></script>
+</body>
+
+</html>

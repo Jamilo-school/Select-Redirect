@@ -35,9 +35,9 @@ body, html {
   }
   
 .container{
+    max-width: 260px;
     margin: 0 auto;
-    max-width: 320px;
-    margin: 0 auto;
+    padding:2px 10px 30px 10px;
     backdrop-filter: blur(50px);
     border-radius: 8px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.361);
@@ -50,22 +50,16 @@ a{
 }
 
 .notifications-container {
-    margin-top: 120px;
+    margin-top: 20px;
     width: 100%;
     height: auto;
-    font-size: 2.875rem;
+    font-size: 1.875rem;
     line-height: 3.25rem;
     flex-direction: column;
     gap: 3rem;
   }
+
   
-  .flex {
-    display: flex;
-  }
-  
-  .flex-shrink-0 {
-    flex-shrink: 0;
-  }
   
   .success {
     padding: 1rem;
@@ -83,6 +77,7 @@ a{
   
   .success-prompt-wrap {
     margin-left: 0.75rem;
+
   }
   
   .success-prompt-heading {
@@ -139,38 +134,33 @@ a{
     border-radius: 0.375rem;
   }
   @media (max-width: 639px){
-      
-.container{
-  width: 100%;
-  font-size: 89px;
-  background-color: red;
-  backdrop-filter: blur(5px);
-  border-radius: 8px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.361);
-  
-}
-.success{
-  width: 100%;
-}
-    .success-button-container,.flex,.container {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .flex{
-      width: 200cqmax;
-    }
-    .notifications-container{
-        width: 40px;
-        margin: 0 auto;
-        margin: 30px;
-    }
-    .success-prompt-wrap{
-      width:100%;
-    }
+    .container{
+      width: 1000%;
     
-  .success-button-secondary{
-    padding: left 0px;;
-    margin: 5px;
-    margin-left: 0;
-  }
+    }
+    .success {
+      font-size: 2rem;
+    }
+    .success-button-container {
+      margin-top: 0.875rem;
+      margin-bottom: -0.375rem;
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+    
+    
+    }
+    .success-button-main {
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      background-image: url(./img/ip.jpg);
+      background-size: cover;
+      color: #e5e8e7;
+      font-size: 15px;
+      line-height: 1.25rem;
+      font-weight: bold;
+      border-radius: 0.375rem;
+      border: none
+    }
   }

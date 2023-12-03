@@ -129,13 +129,14 @@ h1 {
 list-style: none;
 font-size: 13px;
 text-decoration: none;
-color: rgb(135, 132, 132);
+color: rgb(6, 4, 23);
 -webkit-box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
 6px 6px 6px rgba(255, 255, 255, 0.781);
       box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
 6px 6px 6px rgba(255, 255, 255, 0.781);
 outline: none;
 background-color: #f7f7f7;
+margin: 10px;
 text-align: center;
 border-radius: 10px;
 padding: 10px 0px 10px 10px;
@@ -208,7 +209,7 @@ h3{
   border-radius: 4px;
 }
 #biodata{
-  width: 200px;
+  width: auto;
 }
 
 #learnerBiodata {
@@ -231,3 +232,79 @@ p {
 font-size: 1.5rem;
 
 }
+
+@media (min-width: 866px) {
+  .container {
+    max-width: 850px;
+    margin: 0 auto;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.361);
+    
+  }
+ 
+}
+@media (min-width: 450px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    font-size: 3rem;
+    font-family: georgia;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.361);
+    
+  }
+  select{
+    width: auto;
+    font-size: 3rem;
+    margin: 20px;
+  }
+  .titleclass{
+    width: 790%;
+    font-size: 4rem;
+    margin: 10px;
+  }
+  .logo{
+    width: 240px;
+  }
+  #learnerBiodata {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    border: 2px solid #e0dcdc;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    background-color: transparent;
+    color: #484545;
+    
+  }
+  #learnerBiodata a{
+    font-size: 3rem;
+  }
+  button{
+    background-color: rgb(6, 4, 23);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 3rem;
+    
+  }
+  #learnerBiodata.input img{
+    border: 1px solid #c7c5c5;
+    width: 50%;
+    height: 100%;
+  
+  }
+  
+  
+}
+
+
+
+

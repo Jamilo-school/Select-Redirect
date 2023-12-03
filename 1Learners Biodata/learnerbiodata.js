@@ -94,7 +94,7 @@ function displayBiodata() {
   if (selectedLearner.fileURL) {
     const downloadLink = document.createElement("a");
     downloadLink.href = "#";
-    downloadLink.textContent = "Download Online Result Slip";
+    downloadLink.textContent = "Leaving Cert";
     downloadLink.onclick = function () {
       promptForDownloadPassword(selectedLearner);
     };
@@ -103,7 +103,7 @@ function displayBiodata() {
     if (selectedLearner.fileURL2) {
       const downloadLink2 = document.createElement("a");
       downloadLink2.href = "#";
-      downloadLink2.textContent = "Download File 2";
+      downloadLink2.textContent = "Online Slip";
       downloadLink2.onclick = function () {
         promptForDownloadPassword(selectedLearner, "fileURL2");
       };

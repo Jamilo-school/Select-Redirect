@@ -7,6 +7,7 @@ background-size: cover;
   border-radius: 20px;
   border: 2px solid #fafafa7d;
   background-image: url(./img/ip.jpg );
+  background-size: cover;
   display: flex;
   justify-content: center;
   width: auto;

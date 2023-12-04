@@ -1,6 +1,7 @@
 
 body{
 background-image: url(./img/pc.jpg);
+background-size: cover;
 }
 .container{
   border-radius: 20px;

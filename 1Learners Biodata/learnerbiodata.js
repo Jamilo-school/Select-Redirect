@@ -1,12 +1,20 @@
 const learners = {
+  TeachingStaff: [
+    { Name: "learner not selected", AdmNo: "learner not selected", Index: "learner not selected", UPI: "learner not selected",  imageUrl:  "selection", Status: "learner not selected", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/slip2023/ClementJoseph.pdf", password: "ass" },
+    { Name: "Mr Oduor Geofrey Onyango",TscNo: "23/001", Index: 39701064001, UPI: 39701064001,  imageUrl: "./img/abeka.jpg", Status:"course Completed", fileURL: "./Pdf/slip 2023/Clement Joseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/slip2023/ClementJoseph.pdf", password: "ass" },
+    { Name: "Edward Benard Abeka", Index: 3970106401, Year: "2023", imageUrl: "./img/lex.jpg", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/Cleoseph.pdf", password: "ass" },
+    { Name: "Lizzyo Smith", age: 17, grade: "B", imageUrl: "url/to/image3.jpg", fileURL: "./Pdf/slip2023/LizzyAchieng.pdf", fileURL2: "./Pdf/slip2023/Joseph.pdf", password: "learner2Pass" },
+    // Add more learners for Class Eight 2023
+  ],
   ClassEight2023: [
-    // { Name: "learner not selected", AdmNo: "learner not selected", Index: "learner not selected", UPI: "learner not selected",  imageUrl:  "selection", Status: "learner not selected", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/slip2023/ClementJoseph.pdf", password: "ass" },
+    { Name: "learner not selected", AdmNo: "learner not selected", Index: "learner not selected", UPI: "learner not selected",  imageUrl:  "selection", Status: "learner not selected", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/slip2023/ClementJoseph.pdf", password: "ass" },
     { Name: "Edward Benard Abeka",AdmNo: "23/001", Index: 39701064001, UPI: 39701064001,  imageUrl: "./img/abeka.jpg", Status:"course Completed", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/slip2023/ClementJoseph.pdf", password: "ass" },
     { Name: "Edward Benard Abeka", Index: 3970106401, Year: "2023", imageUrl: "./img/lex.jpg", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", fileURL2: "./Pdf/slip2023/ClementJoseph.pdf", fileURL3: "./Pdf/Cleoseph.pdf", password: "ass" },
     { Name: "Lizzyo Smith", age: 17, grade: "B", imageUrl: "url/to/image3.jpg", fileURL: "./Pdf/slip2023/LizzyAchieng.pdf", fileURL2: "./Pdf/slip2023/Joseph.pdf", password: "learner2Pass" },
     // Add more learners for Class Eight 2023
   ],
   GradeFive: [
+    { Name: "", Age: "", grade: "", imageUrl: "", password: "" },
     { Name: "Alice Johnson", age: 16, grade: "A+", imageUrl: "url/to/image4.jpg", password: "learner3Pass" },
     { Name: "Edward Benard Abeka", Index: 39701064001, Year: "2023", imageUrl: "url/to/image5.jpg", fileURL: "./Pdf/slip2023/ClementJoseph.pdf", password: "learner4Pass" },
     // Add more learners for Grade Five
